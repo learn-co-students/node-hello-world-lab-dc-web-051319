@@ -8,7 +8,7 @@
 
 ## Introduction
 
-In this lab, you'll practice how to run Node scripts from command line. In addition, you'll develop your first Node application—Hello World, because such app is a must when learning a new language.
+In this lab, you'll practice how to run Node scripts from command line. In addition, you'll develop your first Node application—Hello World, the traditional first app in any language.
 
 ## Instructions
 

@@ -2,7 +2,7 @@ var expect = require('chai').expect,
   cp = require('child_process')
 
 describe('node hello-world', function () {
-  it('must be 2.14.15 or greater', function(done){
+  it('must match Hello World', function(done){
     child = cp.exec('node hello-world',
     function (error, stdout, stderr) {
       expect(stderr).to.equal('')

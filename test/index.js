@@ -1,17 +1,10 @@
-var expect = require('chai').expect,
-  cp = require('child_process')
+var expect = require('chai').expect
 
-describe('node hello-world', function () {
+describe('hello-world methond in hello-world.js', function () {
   it('must match Hello World', function(done){
-    child = cp.exec('node hello-world',
-    function (error, stdout, stderr) {
-      expect(stderr).to.equal('')
-      if (error !== null) {
-        console.log('exec error: ' + error)
-      }
-      stdout = stdout.replace('\n','')
-      expect(stdout).to.equal('Hello World')
-      done()
-    })
+    var helloWorld = require('../hello-world')()
+    helloWorld = helloWorld.replace('\n', '')
+    expect(helloWorld).to.equal('Hello World')
+    done()
   })
 })

@@ -13,11 +13,10 @@ In this lab, you'll practice how to run Node scripts from command line. In addit
 ## Instructions
 
 1. Create file `hello-world.js` and open it in your favorite editor
-2. Output "Hello World" with `console.log()` which works similarly to browser JavaScript, i.e., prints text.
-3. Launch the script from command line / terminal / command prompt with `$ node hello-world` (`.js` is optional).
-4. Observe the output
-5. Install testing dependencies with `$ npm install` (`$` is a symbol which tells you that this is a command line command)
-6. Run tests with `$ npm test`
+2. Implement an expression (function with `return`) which returns "Hello World"
+3. Export your expression (function with `return`) with `module.exports = ...`
+5. Install testing dependencies with `$ npm install` (`$` is a symbol which tells you that this is a command line command). You need to do it just once for each lab.
+6. Run tests with `$ npm test`.
 
 Tip: Don't overthink it.
 

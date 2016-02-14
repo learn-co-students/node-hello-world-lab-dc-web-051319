@@ -25,10 +25,3 @@ Tip: Don't overthink it.
 
 * [Console in Node official documentation](https://nodejs.org/api/console.html)
 
-## Solution
-
-This is the content of `hello-world.js` which will pass the tests:
-
-```js
-console.log('Hello World')
-```

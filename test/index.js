@@ -1,6 +1,6 @@
 var expect = require('chai').expect
 
-describe('hello-world methond in hello-world.js', function () {
+describe('hello-world method in hello-world.js', function () {
   it('must match Hello World', function(done){
     var helloWorld = require('../hello-world')()
     helloWorld = helloWorld.replace('\n', '')

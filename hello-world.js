@@ -1,3 +1,12 @@
+// This is the content of `hello-world.js` which will pass the tests:
+
+// var helloWorld  = function() {
+  // return 'Hello World'
+// }
+// module.exports = helloWorld // for require('./hello-world.js')
+
+// Bonus (this works as a stand alone application as well):
+
 var helloWorld  = function() {
   return 'Hello World'
 }
